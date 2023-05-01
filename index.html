@@ -6,31 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./styles/style.css" rel="stylesheet" type="text/css">
     <title>Cadastro de Candidatos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div>
-        <h1>Cadastre seus Dados</h1>
-        <p>Venha trabalhar conosco!</p>
-
-        <div>
-            <form action="">
-                <div class="inputBox">
-                    <label for="select">Vagas Disponíveis</label>
-                    <select name="select">
-                        <option value="valor1">Estágio em Vendas</option>
-                        <option value="valor2" selected>Analista de Cobrança</option>
-                        <option value="valor3">Assistente Jurídico</option>
-                    </select>
-                </div>
+<main>
+    <img  id="logo" src="./images/Logo-Grupo-Verreschi.png" alt="Logo do Grupo Verreschi">
+    <div class="content">
+        <div class="title">
+            <h1>Cadastre-se</h1>
+            <p>Venha trabalhar conosco!</p>
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <label for="select">Selecione uma das Vagas Disponíveis</label>
+                <select name="select">
+                    <option value="valor1">Estágio em Vendas</option>
+                    <option value="valor2" selected>Analista de Cobrança</option>
+                    <option value="valor3">Assistente Jurídico</option>
+                </select>
+            </div>
+            <div class="grid-content">
                 <div class="inputBox">
                     <label for="nome">Nome Completo</label>
-                    <input type="text" name="nome" id="">
+                    <input type="text" name="nome" id="" required>
                 </div>
                 <div class="inputBox">
-                    <label for="email"></label>
+                    <label for="email">Insira seu melhor Email</label>
                     <input type="email" name="email" id="" required>
                 </div>
+            
                 <div class="inputBox">
                     <label for="telefone">Telefone</label>
                     <input type="tel" name="telefone" id="" required>
@@ -39,6 +47,7 @@
                     <label for="Celular">Celular</label>
                     <input type="tel" name="Celular" id="">
                 </div>
+            
                 <div class="inputBox">
                     <label for="select">Gênero</label>
                     <select name="select">
@@ -59,6 +68,7 @@
                         <option value="valor6">Ensino Superior Completo</option>
                     </select>
                 </div>
+            
                 <div class="inputBox">
                     <label for="linkedin">LinkedIn</label>
                     <input type="url" name="linkedin" id="">
@@ -67,9 +77,13 @@
                     <label for="curriculo">Faça o Upload do seu Currículo</label>
                     <input type="file" name="curriculo" id="">
                 </div>
-            </form>
-        </div>
+            </div>
+
+            <input id="btn" type="submit" value="Cadastrar Candidatura">
+            
+        </form>
     </div>
+</main>
 
 </body>
 </html>
