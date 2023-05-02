@@ -8,7 +8,7 @@
 }
 
 main{
-    height: 100vh;
+    height: 100%;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -17,12 +17,13 @@ main{
     justify-content: center;
     background: rgb(172,56,139);
     background: linear-gradient(90deg, rgba(172,56,139,1) 27%, rgba(72,20,176,1) 89%);
-
 }
 
 #logo{
-    width: 30rem;
-    margin-bottom: 4em;
+    width: 15rem;
+    margin: 2rem;
+    /* width: 30rem;
+    margin-bottom: 4em; */
 }
 
 .title{
@@ -32,7 +33,7 @@ main{
 
     /* color: #fff; */
     font-weight: 300;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 .content{
@@ -41,7 +42,7 @@ main{
     justify-content: center;
     flex-direction: column;
 
-    padding: 1em;
+    padding: 1rem;
     background-color: #fff;
 
     box-shadow: 4px 5px 9px;
@@ -49,8 +50,8 @@ main{
 }
 
 form{
-    height: 30em;
-    width: 35em;
+    height: 33rem;
+    width: 35rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,19 +64,19 @@ form{
     display: flex;
     flex-direction: column;
 
-    margin: 0.5em;
+    margin: 0.5rem;
 }
 
 input{
-    height: 1.8em;    
+    height: 1.8rem;    
 }
 
 select{
-    height: 2em;
+    height: 2rem;
 }
 
 option{
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .row-content{
@@ -91,14 +92,14 @@ option{
 }
 
 #btn{
-    margin-top: 3em;
-    height: 4em;
-    width: 12em;
+    margin-top: 3rem;
+    height: 4rem;
+    width: 12rem;
 
-    font-size: 18px;
+    font-size: 1.1rem;
     border: 1px black solid;
     border-radius: 5px;
-
+    
     color: #fff;
     background: rgb(58,56,221);
     background: linear-gradient(90deg, rgba(58,56,221,1) 0%, rgba(72,20,176,1) 100%);
